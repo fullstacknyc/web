@@ -11,8 +11,8 @@ export default function Home() {
         <Image
           src="/shawty.JPG"
           alt="JPG of my gf"
-          width={200}
-          height={200}
+          width={2208}
+          height={1242}
         />
         <section>
           <h2>About Us</h2>
