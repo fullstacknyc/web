@@ -16,6 +16,13 @@
 # production
 /build
 
+# IDEs
+.vscode/
+.idea/
+
+# log files
+*.log
+
 # misc
 .DS_Store
 *.pem
