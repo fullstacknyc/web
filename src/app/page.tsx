@@ -9,8 +9,8 @@ export default function Home() {
       </header>
       <main>
         <Image
-          src="public/images/shawty.JPG" // assuming you've added this image to your public folder
-          alt="shawty"
+          src="public/shawty.JPG" // assuming you've added this image to your public folder
+          alt="JPG of my gf"
           width={200}
           height={200}
         />
