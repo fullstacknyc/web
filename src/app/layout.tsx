@@ -1,16 +1,19 @@
+import { Inter } from '@next/font/google';
+
+// Load the Inter font with specific weights
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'], // Specify the weights you need
+  display: 'swap',
+});
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       <head>
         <title>My Website</title>
         <meta name="description" content="A Next.js website created by me" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
-        {/* Import custom font here */}
-        <link
-          rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-        />
       </head>
       <body className="font-sans text-gray-900 bg-gray-50">
         <header className="bg-white shadow py-4">
