@@ -1,3 +1,5 @@
+import Image from 'next/image'; // Place the import here
+
 export default function Home() {
   return (
     <div className="container mx-auto p-8 max-w-screen-xl">
@@ -15,10 +17,13 @@ export default function Home() {
       <section className="bg-gray-50 text-center py-20 mt-8 rounded-lg shadow-md">
         <h2 className="text-5xl font-semibold text-primary mb-4">Welcome to My Website</h2>
         <p className="text-lg text-gray-600 mb-8">Discover more about my project and services!</p>
-        <img
+        <Image
           src="/shawty.JPG"
           alt="JPG of my gf"
-          className="mx-auto w-96 h-auto rounded-md shadow-lg"
+          className="mx-auto rounded-md shadow-lg"
+          width={384} // Adjust width according to your needs
+          height={auto} // Use a specific height or calculate it based on the image aspect ratio
+          layout="responsive" // Optional: This will make the image responsive
         />
         <a href="#about" className="mt-8 inline-block bg-primary text-white px-6 py-3 rounded-full hover:bg-secondary transition">
           Learn More
