@@ -5,7 +5,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <title>My Website</title>
         <meta name="description" content="A Next.js website created by me" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+        
+        {/* Import custom font here */}
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+        />
       </head>
       <body className="font-sans text-gray-900 bg-gray-50">
         <header className="bg-white shadow py-4">
