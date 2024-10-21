@@ -21,8 +21,8 @@ export default function Home() {
           src="/shawty.JPG"
           alt="JPG of my gf"
           className="mx-auto rounded-md shadow-lg"
-          width={384} // Adjust width according to your needs
-          height={auto} // Use a specific height or calculate it based on the image aspect ratio
+          width={1104} // Adjust width according to your needs
+          height={621} // Use a specific height or calculate it based on the image aspect ratio
           layout="responsive" // Optional: This will make the image responsive
         />
         <a href="#about" className="mt-8 inline-block bg-primary text-white px-6 py-3 rounded-full hover:bg-secondary transition">
